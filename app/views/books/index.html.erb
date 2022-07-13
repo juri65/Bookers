@@ -1,3 +1,5 @@
+
+
 <h1>Books</h1>
 
 <table>
@@ -13,11 +15,12 @@
         <tr>
             <td><%= book.title %></td>
             <td><%= book.body %></td>
+            
         </tr>
        <% end %>
     </tbody>
 </table>
 
-
+<!--%= link_to "Destroy.", destroy_book_path(@book.id), method: :delete, "data-confirm" => "Are you sure？" %-->
 
 
